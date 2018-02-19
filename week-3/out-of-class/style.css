@@ -1,0 +1,60 @@
+body {
+  background-color: white;
+  font-family: "Average Sans", sans-serif;
+  size: 20px;
+  line-height: 1.5;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+h1, h2 {
+  font-family: "Goudy Bookletter 1911", serif;
+  color: #CD8C52;
+}
+
+a {
+  text-decoration: none;
+  color: #0000FF;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+figure {
+  background-color: #FCF7D3;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+figure img, figure figcaption {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+blockquote {
+  background-color: #FCF7D3;
+}
+
+dt {
+  
+}
+
+p:lang(ja) {
+  font-family: "Osaka";
+}
+
+#signed-by {
+  font-variant: small-caps;
+}
+
+.term {
+  font-variant: small-caps;
+}
+
+.person {
+  background-color: #DEE8BE;
+}
