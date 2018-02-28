@@ -15,7 +15,6 @@ h1, h2, h3, nav {
 }
 
 h1, h2, h3 {
-    text-transform: uppercase;
     margin-bottom: .5rem;
 }
 
@@ -24,6 +23,8 @@ header {
     background-color: #6d6fae;
     padding-top: 1rem;
     padding-bottom: 1rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
 }
 
 header img {
@@ -40,6 +41,9 @@ nav {
     background-color: #6d6fae;
     color: white;
     position: relative;
+    padding-left: 6rem;
+    padding-right: 6rem;
+    margin-bottom: 1rem;
 }
 
 nav div.dropdown {
@@ -53,13 +57,13 @@ nav div.dropdown {
 .dropdown-content a {
     display: block;
     text-decoration: none;
-    color: #eaebf7;
+    color: white;
     margin-bottom: .5rem;
 }
 
 .dropdown-content {
     display: none;
-    background-color: #999acc;
+    background-color: #6d6fae;
     position: relative;
     padding: .5rem
 }
@@ -81,16 +85,51 @@ div.dropbtn {
 
 
 /** Stuff in the main body **/
+#maincontent {
+    padding-left: 6rem;
+    padding-right: 6rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+aside {
+  width: 25rem;
+}
+
+.fables {
+  min-width: 50%;
+  max-width: 60%;
+}
+
 article p {
     margin-bottom: 1em;
 }
 
-.moral {
-    font-style: italic;
+.scroll {
+  width: 12.5rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.link-to-source {
-    opacity: .5;
+article img {
+  float: left;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}
+
+#tortoise-and-ducks img {
+  float: right;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+}
+
+.moral {
+    font-weight: bold;
+}
+
+.link-to-source a {
+    color: #505491;
 }
 
 #about-aesop {
@@ -99,9 +138,22 @@ article p {
     margin-bottom: 2rem
 }
 
+.hidden {
+    position:absolute;
+    left:-10000px;
+    top:auto;
+    width:1px;
+    height:1px;
+    overflow:hidden;}
 
 /* Footer */
 footer {
     background-color: #cfc354;
-    color: #fffbd5;
+    color: black;
+    padding-left: 6rem;
+    padding-right: 6rem;
+    text-align: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    margin-top: 1rem;
 }
