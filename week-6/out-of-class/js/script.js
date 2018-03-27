@@ -16,7 +16,7 @@ let hours = [
 ];
 
 function dailyHours(hours) {
-  var daysHours = hours.split(": ");
+  let daysHours = hours.split(": ");
   if (daysHours[1] == "closed") {
     renderOutput ("On " + daysHours[0] + " the library is " + daysHours[1]);
   }
@@ -25,4 +25,8 @@ function dailyHours(hours) {
   }
 }
 
+function displayWeeklyHours(hours) {
 hours.forEach(dailyHours);
+}
+
+displayWeeklyHours(hours);
