@@ -50,3 +50,9 @@ let the_philadelphia_story = {
 let books = [native_son, a_tree_grows_in_brooklyn, the_stranger];
 
 let films = [the_third_man, rebecca, the_philadelphia_story];
+
+let resultList = document.querySelector(".result-list");
+
+function displayOneBook(book) {
+  resultList.innerHTML = "<li>" + book.title + "</li>" + "<li>by " + book.author + "</li>";
+}
