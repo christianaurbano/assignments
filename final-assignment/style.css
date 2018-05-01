@@ -1,0 +1,162 @@
+html, body {
+    margin:0;
+    padding:0;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    color: #163a3c;
+    background-color: #f0eed6;
+}
+
+h1, h2, h3, h4 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+}
+
+h1 {
+  font-size: 2em;
+  width:100%;
+  padding-left: 2em;
+}
+
+a {
+  color: #163a3c;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-position: inside;
+}
+
+nav {
+  text-align:center;
+  background-color:#163a3c;
+  padding: .5em;
+}
+
+nav img {
+  min-width: 15em;
+  max-width:19%;
+  padding-left: .3%;
+  padding-right: .3%;
+}
+
+main {
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+article {
+  padding: 2em;
+}
+
+.searchbar {
+  padding:2em;
+  flex-basis: 100%;
+  text-align: center;
+}
+
+.search-button {
+  max-height:23px;
+  max-height:23px;
+  vertical-align: baseline;
+}
+
+#search-input {
+  vertical-align: super;
+}
+
+.large_image {
+  max-width: 40%;
+  display: block;
+  float: left;
+}
+
+.minibox .large_image {
+  max-width: 100%;
+}
+
+.dateandtime {
+  font-weight: bold;
+}
+
+.more_button {
+  max-width: 200px;
+  padding-left: 40%;
+}
+
+#logo {
+  padding: 1em;
+}
+
+#logo img {
+  max-width: 50%;
+}
+
+.infobox {
+  background-color: #F17C66;
+  padding: 1em;
+  width: 45%;
+  flex-grow:1;
+}
+
+.minibox {
+  background-color: #f0eed6;
+  padding: 1em;
+  width: 19%;
+}
+
+.searchresult {
+  background-color: #f0eed6;
+  padding: 1em;
+  width: 19%;
+}
+
+.searchresult .large_image {
+  min-width: 1em;
+  max-width: 40%;
+  margin: .5em;
+}
+
+.mediatype {
+  font-weight: bold;
+}
+
+.author {
+  font-weight: bold;
+}
+
+#socialmedia {
+  background-color: #92CFC3;
+  padding: 1em;
+}
+
+.small_image {
+  width: 4%;
+}
+
+aside {
+  padding: 1em;
+  background-color: #f98e7a;
+  display:block;
+  float:left;
+  margin-left:3em;
+  margin-top:9em;
+}
+
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
